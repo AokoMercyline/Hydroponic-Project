@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #00a108;
+    background: green;
     font-family: 'Poppins', sans-serif;
 } 
 
@@ -151,3 +151,55 @@ tr td {
     top: 10%;
     }
 }
+
+.struc {
+    align-items: flex-start;
+    /* height: 450px; */
+    width: 720px;
+    display: block;
+    align-self: left;
+    float: left;
+}
+iframe {
+    align-self: start;
+    float: right;
+}
+.media {
+    display: flex;
+    flex-direction: row;
+}
+#box {
+    border: wheat;
+    width: auto;
+    height: 320px;
+    overflow: scroll;
+    display: inline-flex;
+}
+.clean {
+    border: wheat;
+    height: 330px;
+}
+#clean {
+    float: left;
+}
+.one {
+    border: wheat;
+    height: 230px;
+}
+
+.green-living h1{
+
+    color: green;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.green-living h2{
+    color: green;
+    text-align: center;
+}
+
+.green-living{
+    background-color: wheat;
+}
+
